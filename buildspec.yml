@@ -5,10 +5,10 @@ phases:
     commands:
       - npm install
   build:
-   commands:
+    commands:
       - npm run build
 
 artifacts:
   files:
-   - "**/*"
+    - "**/*"
   base-directory: build
